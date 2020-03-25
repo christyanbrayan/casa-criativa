@@ -1,30 +1,99 @@
 body {
   background-color: #e5e5e5;
   color: #25282b;
-  text-align: center;
-}
-
-p {
-  font-size: ;
-}
-
-button {
-  color: #ff5e84;
-  border: none;
-  font-weight: bold;
-  background: none;
-}
-
-.fat {
-  color: white;
-  background-color: #ff5e84;
-}
-
-a {
-  color: #25282b;
-  text-decoration: none;
+  margin: 0;
 }
 
 .hide {
   display: none;
+}
+
+a {
+  color: #ff5e84;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  width: 80%;
+  max-width: 980px;
+  margin: 40px auto;
+  display: flex;
+}
+
+#intro {
+  width: 300px;
+  margin-right: 20px;
+}
+
+main {
+  margin: 32px 0;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+}
+
+button {
+  background: none;
+  color: #ff5e84;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+button.fat {
+  color: white;
+  background-color: #ff5e84;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 8px 8px 16px #ff5e8432;
+}
+
+button.fat:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.idea {
+  display: flex;
+  box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.idea img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+
+.idea h3 {
+  margin: 0;
+}
+
+.idea p {
+  margin: 8px 0;
+  color: #777;
+}
+
+.idea .description {
+  margin: 16px 0;
 }
