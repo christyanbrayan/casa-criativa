@@ -1,0 +1,30 @@
+body {
+  background-color: #e5e5e5;
+  color: #25282b;
+  text-align: center;
+}
+
+p {
+  font-size: ;
+}
+
+button {
+  color: #ff5e84;
+  border: none;
+  font-weight: bold;
+  background: none;
+}
+
+.fat {
+  color: white;
+  background-color: #ff5e84;
+}
+
+a {
+  color: #25282b;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
