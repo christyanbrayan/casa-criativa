@@ -19,10 +19,29 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
+p, .description {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
+}
+
+.button {
+  color: white;
+  background-color: #ff5e84;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 8px 16px #ff5e8432;
+}
+
+.button:hover {
+  background-color: #0984e3;
+  text-decoration: none;
 }
 
 #container {
@@ -34,7 +53,7 @@ p {
 
 #intro {
   width: 300px;
-  margin-right: 20px;
+  margin-right: 64px;
 }
 
 main {
@@ -61,19 +80,6 @@ button {
 
 button:hover {
   text-decoration: underline;
-}
-
-button.fat {
-  color: white;
-  background-color: #ff5e84;
-  width: 150px;
-  height: 40px;
-  border-radius: 6px;
-  box-shadow: 8px 8px 16px #ff5e8432;
-}
-
-button.fat:hover {
-  text-decoration: none;
 }
 
 footer {
@@ -243,26 +249,12 @@ form button:hover {
   color: #25282b;
 }
 
+#page-ideas nav li a.button {
+  color: white;
+}
+
 #page-ideas nav li:last-child {
   margin: 0;
-}
-
-#page-ideas nav li:last-child a {
-  width: 150px;
-  height: 40px;
-  background-color: #ff5e84;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-}
-
-#page-ideas nav li:last-child a:hover {
-  background-color: #0984e3;
-  text-decoration: none;
 }
 
 section#title {
