@@ -210,3 +210,78 @@ form button:hover {
   opacity: 0;
   visibility: hidden;
 }
+
+#page-ideas #container {
+  display: block;
+}
+
+#page-ideas header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-ideas nav {
+  display: flex;
+  align-items: center;
+}
+
+#page-ideas nav li {
+  list-style: none;
+  margin-right: 16px;
+}
+
+#page-ideas nav li a {
+  color: #25282b;
+}
+
+#page-ideas nav li:last-child {
+  margin: 0;
+}
+
+#page-ideas nav li:last-child a {
+  width: 150px;
+  height: 40px;
+  background-color: #ff5e84;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+#page-ideas nav li:last-child a:hover {
+  background-color: #0984e3;
+  text-decoration: none;
+}
+
+section#title {
+  text-align: center;
+}
+
+section#title p {
+  opacity: 0.7;
+  margin: 0;
+}
+
+section#title h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+section#ideas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+section#ideas .idea {
+  margin: 0;
+}
+
+section#title,
+section#ideas,
+footer {
+  margin-top: 64px;
+}
