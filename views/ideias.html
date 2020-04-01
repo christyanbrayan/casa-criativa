@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
+{% extends "layout.html" %}
+
+{% set bodyId = "page-ideas" %}
+
+{% block title %}
   <title> Ideias - Casa Criativa </title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body id="page-ideas">
-<div id="container">
+{% endblock %}
+
+{% block content %}
+
   <header>
     <a href="/">
       <img src="/logo.png" alt="Imagem da Logomarca">
@@ -37,10 +37,5 @@
       </a>
     </p>
   </footer>
-</div>
 
-  {% include "modal.html" %}
-
-  <script src="/scripts.js"></script>
-</body>
-</html>
+{% endblock %}
