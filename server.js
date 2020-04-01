@@ -30,6 +30,20 @@ const ideas = [
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed labore porro a eligendi esse vero",
     url: "https://rocketseat.com.br"
   },
+  {
+    img: "https://image.flaticon.com/icons/svg/2729/2729038.svg",
+    title: "Pintura",
+    category: "Criatividade",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed labore porro a eligendi esse vero",
+    url: "https://rocketseat.com.br"
+  },
+  {
+    img: "https://image.flaticon.com/icons/svg/2729/2729048.svg",
+    title: "Recortes",
+    category: "Criatividade",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed labore porro a eligendi esse vero",
+    url: "https://rocketseat.com.br"
+  },
 ]
 
 server.use(express.static("public"))
@@ -42,11 +56,23 @@ nunjucks.configure("views", {
 
 server.get("/", function(req, res) {
 
-  return res.render("index.html", { ideas })
+  const reversedIdeas = [... ideas].reverse()
+
+  let lastIdeas = []
+  for (let idea of reversedIdeas) {
+    if(lastIdeas.length < 2) {
+      lastIdeas.push(idea)
+    }
+  }
+
+  return res.render("index.html", { ideas: lastIdeas })
 })
 
 server.get("/ideias", function(req, res) {
-  return res.render("ideias.html")
+
+  const reversedIdeas = [... ideas].reverse()
+
+  return res.render("ideias.html", { ideas: reversedIdeas })
 })
 
 server.listen(3000)
