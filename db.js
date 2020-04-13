@@ -14,4 +14,27 @@ db.serialize(function() {
     );
   `)
 
+  const query = `
+      INSERT INTO ideas(
+        image,
+        title,
+        category,
+        description,
+        link
+      ) VALUES (?,?,?,?,?);
+    `
+  const values = [
+    "https://image.flaticon.com/icons/svg/2729/2729007.svg",
+    "Cursos de Programação",
+    "Estudo",
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "https://rocketseat.com.br"
+  ]
+
+  db.run(query, values, function(err) {
+    if (err) return console.log(err)
+
+    console.log(this)
+  })
+
 })
