@@ -31,10 +31,16 @@ db.serialize(function() {
     "https://rocketseat.com.br"
   ]
 
-  db.run(query, values, function(err) {
+  // db.run(query, values, function(err) {
+  //   if (err) return console.log(err)
+  //
+  //   console.log(this)
+  // })
+
+  db.all(`SELECT * FROM ideas`, function(err, rows) {
     if (err) return console.log(err)
 
-    console.log(this)
+    console.log(rows)
   })
 
 })
