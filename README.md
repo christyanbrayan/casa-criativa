@@ -46,6 +46,17 @@ Rode ```npm run dev```.
 
 Acesse a aplicação via **localhost:3000**
 
+Veja também esse [vídeo]() com a demonstração da aplicação rodando localmente.
+
+---
+
+**&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
+
+**Instrutor: [Mayk Brito](https://github.com/maykbrito)**
+
+## Licença
+[MIT](LICENSE)
+
 <hr>
 
 <h4 align="center">
