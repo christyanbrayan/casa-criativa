@@ -5,7 +5,7 @@ Ocorrida paralelamente a Semana OmniStack 11.0
 - [x] **Episódio 2 (24/03)**
 - [x] **Episódio 3 (25/03)**
 - [x] **Episódio 4 (26/03)**
-- [ ] Episódio 5 (27/03)
+- [x] **Episódio 5 (27/03)**
 
 **&copy; [Rocketseat](https://rocketseat.com.br/)**
 
