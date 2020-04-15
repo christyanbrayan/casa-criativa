@@ -32,7 +32,7 @@ db.serialize(function() {
   //   "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   //   "https://rocketseat.com.br"
   // ]
-
+  //
   // db.run(query, values, function(err) {
   //   if (err) return console.log(err)
   //

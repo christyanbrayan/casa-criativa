@@ -1,7 +1,7 @@
 <div id="modal" class="hide">
   <div class="content">
     <h1> Nova Ideia </h1>
-    <form action="/" method="POST">
+    <form action="/" method="POST" onsubmit="return checkFields(event)">
 
     <div class="input-wrapper">
       <label for="title"> Título da Ideia </label>
