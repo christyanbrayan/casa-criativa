@@ -1,16 +1,15 @@
-# WorkshopDev Especial da Rocketseat
-Ocorrida paralelamente a Semana OmniStack 11.0
+<h1 align="center">
+  <img src="public/logo.png">
+</h1>
 
-- [x] **Episódio 1 (23/03)**
-- [x] **Episódio 2 (24/03)**
-- [x] **Episódio 3 (25/03)**
-- [x] **Episódio 4 (26/03)**
-- [x] **Episódio 5 (27/03)**
+<h2 align="center">
+  Sistema de cadastro de ideias para tornar o momento
+  <br>
+  de confinamento pelo Covid-19 mais interessante
+</h2>
 
-**&copy; [Rocketseat](https://rocketseat.com.br/)**
+<hr>
 
-**Instrutor: [Mayk Brito](https://github.com/maykbrito)**
-
----
-
-***</>*** **by Christyan Brayan**
+<h4 align="center">
+  <em>&lt;/&gt;</em> by <a href="https://github.com/christyanbrayan" target="_blank">christyanbrayan</a>
+</h4>
