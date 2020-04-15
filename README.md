@@ -46,6 +46,12 @@ Rode ```npm run dev```.
 
 Acesse a aplicação via **localhost:3000**
 
+### Telas
+
+![](imgs/print1.png)
+![](imgs/print2.png)
+![](imgs/print3.png)
+
 Veja também esse [vídeo]() com a demonstração da aplicação rodando localmente.
 
 ---
