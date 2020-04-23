@@ -52,7 +52,7 @@ Acesse a aplicação via **localhost:3000**
 ![](imgs/print2.png)
 ![](imgs/print3.png)
 
-Veja também esse [vídeo]() com a demonstração da aplicação rodando localmente.
+Veja também esse [vídeo](https://youtu.be/vV-hAM5sYjo) com a demonstração da aplicação rodando localmente.
 
 ---
 
