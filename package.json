@@ -21,7 +21,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.2",
-    "nunjucks": "^3.2.1",
+    "nunjucks": "^3.2.4",
     "sqlite3": "^4.1.1"
   }
 }
